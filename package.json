@@ -1,0 +1,19 @@
+{
+  "name": "jc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "jest-circus": "^26.2.2"
+  },
+  "jest": {
+    "testRunner": "jest-circus/runner",
+    "testEnvironment": "node"
+  }
+}
